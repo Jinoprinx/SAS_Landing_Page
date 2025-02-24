@@ -10,10 +10,10 @@ const Download = () => {
                     <div className="flex items-center">
                         <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex-256 max-md:flex-100">
                             <div className="mb-10">
-                                <img src="/images/xora.svg" width={160} height={55} alt="logo" />
+                                <img src="/images/vilo.svg" width={160} height={55} alt="logo" />
                             </div>
                             <p className="body-1 mb-10 max-w-md">
-                                Try it now for free on iOS, Andriod, PC, Web - whatever your flavour, we've got you covered
+                                Try it now for free on iOS, Andriod, PC, Web - whatever your flavour, we`ve got you covered
                             </p>
                             <ul className="flex flex-wrap items-center gap-6">
                                 {links.map(({id, url, icon})=> (
@@ -35,13 +35,13 @@ const Download = () => {
                                     <span className="download_preiew-dot left-6 bg-p2" />
                                     <span className="download_preiew-dot left-11 bg-s3" />
                                     <span className="download_preiew-dot left-16 bg-p1/15" />
-                                    <img src="/images/screen.jpg" width={855} height={655} alt="screen" className="rounded-xl" />
+                                    <img src="/images/screeen.jpg" width={855} height={655} alt="screen" className="rounded-xl" />
                                 </div>
                             </div>
                         </div>
                     </div>
                     <ul className="my-24 flex justify-center max-lg:hidden">
-                        {logos.map(({id, url, width, height, title})=>(
+                        {logos.map(({id, url, width, height,})=>(
                             <li key={id} className="mx-10">
                                 <img src={url} width={width} height={height} alt="logos" />
                             </li>

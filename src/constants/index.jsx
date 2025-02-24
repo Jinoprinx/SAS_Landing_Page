@@ -6,7 +6,7 @@ export const features = [
     icon: '/images/feature-1.png',
     caption: 'Easy integration',
     title: 'Work smarter not harder',
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    text: "With Vilo, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
     button: {
       icon: '/images/magictouch.svg',
       title: 'Watch the demo',
@@ -17,7 +17,7 @@ export const features = [
     icon: '/images/feature-2.png',
     caption: 'Secure & trustworthy',
     title: 'Sleep easy, we got your back',
-    text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
+    text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Vilo helps keeps your information secure and locked up tighter than Fort Knox.',
     button: {
       icon: '/images/docs.svg',
       title: 'Read the docs',
@@ -51,39 +51,39 @@ export const details = [
 export const faq = [
   {
     id: '0',
-    question: 'How easy is it to setup Xora?',
+    question: 'How easy is it to setup Vilo?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'Vilo is very intuitive, it doesnt need any specialized setup',
   },
   {
     id: '1',
-    question: 'Can I integrate Xora with other platforms?',
+    question: 'Can I integrate Vilo with other platforms?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'Absolutely! Vilo is compactible with most video editing software platform.',
   },
   {
     id: '2',
     question: 'How often do you add new content?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'We add new content and templates every week',
   },
   {
     id: '3',
     question: 'What your refund policy?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'You can get a refund within 30 days after your request has been approved.',
   },
   {
     id: '4',
     question: 'Do you have corporate plans?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'Absolutely! Our coporate plans gives you more storage room and flexibility to create better projects.',
   },
   {
     id: '5',
     question: 'What happens when I’m out of storage?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'You can delete some videos from your workspace or better still, you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
   },
   {
     id: '6',
@@ -95,19 +95,19 @@ export const faq = [
     id: '7',
     question: 'How do I invite my team?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'Just go to members dashboard and click on `SEND INVITE`.',
   },
   {
     id: '8',
     question: 'Do you offer training for individuals and teams?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'Yes!.',
   },
   {
     id: '9',
     question: 'I’m locked out of my account what do I do?',
     answer:
-      'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
+      'You can send an email to support@vilo.com stating the email address you used in registering your account.',
   },
 ];
 
@@ -162,15 +162,15 @@ export const plans = [
 export const testimonials = [
   {
     id: '0',
-    name: 'Jessica Saunders',
+    name: 'Jane Pappers',
     role: 'Globalnomads',
     avatarUrl: '/images/testimonials/jessica-saunders.png',
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "Vilo's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
   {
     id: '1',
-    name: 'Mark Erixon',
+    name: 'Sean Markinson',
     role: 'Vid capital intl',
     avatarUrl: '/images/testimonials/mark-erixon.png',
     comment:
@@ -178,7 +178,7 @@ export const testimonials = [
   },
   {
     id: '2',
-    name: 'Melanie Hurst',
+    name: 'Bauer Rodly',
     role: 'Cyberleap',
     avatarUrl: '/images/testimonials/melanie-hurst.png',
     comment:
@@ -186,7 +186,7 @@ export const testimonials = [
   },
   {
     id: '3',
-    name: 'Alicia Barker',
+    name: 'Alicia Cook',
     role: 'Cyberleap',
     avatarUrl: '/images/testimonials/alicia-barker.png',
     comment:
@@ -198,11 +198,11 @@ export const testimonials = [
     role: 'Floclips',
     avatarUrl: '/images/testimonials/becky-snider.png',
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "Switched to Vilo last month, and I'm already seeing results. Best decision for our team!",
   },
   {
     id: '5',
-    name: 'Jim Bradley',
+    name: 'Roman Putrof',
     role: 'Vid capital intl',
     avatarUrl: '/images/testimonials/jim-bradley.png',
     comment:
