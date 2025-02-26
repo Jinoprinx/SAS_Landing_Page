@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import clsx from "clsx";
 
 const TestimonialItem = ({item, containerClassName}) => {
@@ -19,5 +20,10 @@ const TestimonialItem = ({item, containerClassName}) => {
     )
     
 };
+    TestimonialItem.propTypes = {
+        item: PropTypes.object.isRequired,
+        containerClassName: PropTypes.string,
+        
+    };
 
 export default TestimonialItem;

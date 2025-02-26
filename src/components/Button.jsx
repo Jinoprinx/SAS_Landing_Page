@@ -1,6 +1,7 @@
 import clsx from "clsx";
-import React from "react";
+//import React from "react";
 import { Marker } from "./Marker";
+import PropTypes from 'prop-types';
 
 const Button = ({icon, children, href, containerClassName, onClick, markerfill}) => {
     const Inner = ()=> (
@@ -22,6 +23,14 @@ const Button = ({icon, children, href, containerClassName, onClick, markerfill})
             <Inner/>
         </a>
     ) : (<button className={clsx('relative p-0.2 g-5 rounded-2xl shadow-500 group', containerClassName)} onClick={onClick}><Inner/></button>)
-    }
+    };
+    Button.propTypes = {
+        icon: PropTypes.string.isRequired,
+        children: PropTypes.string.isRequired,
+        href: PropTypes.string,
+        containerClassName: PropTypes.string,
+        onClick: PropTypes.func,
+        markerfill: PropTypes.string,
+    };
 
 export default Button;
